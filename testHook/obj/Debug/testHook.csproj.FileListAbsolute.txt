@@ -5,3 +5,6 @@ D:\temp\testHook\testHook\obj\Debug\testHook.exe
 D:\temp\testHook\testHook\obj\Debug\testHook.pdb
 D:\temp\testHook\testHook\obj\Debug\testHook.ProjectInstaller.resources
 D:\temp\testHook\testHook\obj\Debug\testHook.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\123\bloghook\testHook\bin\Debug\testHook.exe.config
+C:\Users\Administrator\Desktop\123\bloghook\testHook\obj\Debug\testHook.exe
+C:\Users\Administrator\Desktop\123\bloghook\testHook\obj\Debug\testHook.pdb

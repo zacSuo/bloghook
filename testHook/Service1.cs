@@ -41,14 +41,13 @@ namespace testHook
         private void OnTimer(object sender, ElapsedEventArgs args)
         {
             this.noneCount++;
-            using (FileInfo fi = new FileInfo(@"C:\Users\suo\blogHk\logs.txt"))
-            {
-                if (this.dtLast != fi.LastWriteTime || this.noneCount >= 120)
-                {//5天至少更新一次
-                    dtLast = fi.LastWriteTime;
-                    this.noneCount = 0;
-                    this.PullCode();
-                }
+            FileInfo fi = new FileInfo(@"C:\Users\suo\blogHk\logs.txt");
+
+            if (this.dtLast != fi.LastWriteTime || this.noneCount >= 120)
+            {//5天至少更新一次
+                dtLast = fi.LastWriteTime;
+                this.noneCount = 0;
+                this.PullCode();
             }
         }
 
