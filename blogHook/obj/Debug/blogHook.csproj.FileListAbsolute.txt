@@ -1,0 +1,5 @@
+D:\temp\blogHook\blogHook\bin\blogHook.dll
+D:\temp\blogHook\blogHook\bin\blogHook.pdb
+D:\temp\blogHook\blogHook\obj\Debug\blogHook.dll
+D:\temp\blogHook\blogHook\obj\Debug\blogHook.pdb
+D:\temp\blogHook\blogHook\obj\Debug\blogHook.csprojResolveAssemblyReference.cache
