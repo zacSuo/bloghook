@@ -1,0 +1,7 @@
+D:\temp\testHook\testHook\bin\Debug\testHook.exe.config
+D:\temp\testHook\testHook\bin\Debug\testHook.exe
+D:\temp\testHook\testHook\bin\Debug\testHook.pdb
+D:\temp\testHook\testHook\obj\Debug\testHook.exe
+D:\temp\testHook\testHook\obj\Debug\testHook.pdb
+D:\temp\testHook\testHook\obj\Debug\testHook.ProjectInstaller.resources
+D:\temp\testHook\testHook\obj\Debug\testHook.csproj.GenerateResource.Cache

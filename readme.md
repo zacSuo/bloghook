@@ -10,4 +10,7 @@
         设置了全局身份：git config --global user.name "";   git config --global user.email ""
         将管理员目录下的.ssh文件夹，拷贝到了所有用户目录下
         
-最终的折中做法是，写个本地Service，每小时定期执行一次pull操作来更新，显然不是需要的，但先凑合用
+
+最终的折中做法是，写个本地Service（testHook），每小时定期执行一次pull操作来更新，显然是不完美的，但作为个人博客时效也没那么高，先凑合用
+
+当前项目（blogHook）只是收到github推送的push接口后，写一下本地日志，然后testHook中每小时定时看日志的修改时间，如果跟上次记录不同，则更新。
